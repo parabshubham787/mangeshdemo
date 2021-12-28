@@ -22,4 +22,9 @@ public class ServiceApp {
     {
         return "job";
     }
+    @GetMapping("/job")
+    public String Sayjob()
+    {
+        return "java";
+    }
 }
