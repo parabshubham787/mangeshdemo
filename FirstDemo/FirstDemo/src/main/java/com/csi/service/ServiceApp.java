@@ -17,4 +17,9 @@ public class ServiceApp {
     {
         return "pune";
     }
+    @GetMapping("/service")
+    public String SayService()
+    {
+        return "job";
+    }
 }
