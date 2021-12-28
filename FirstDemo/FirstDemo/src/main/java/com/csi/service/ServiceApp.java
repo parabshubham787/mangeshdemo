@@ -12,4 +12,9 @@ public class ServiceApp {
     {
         return "welcome";
     }
+    @GetMapping("/address")
+    public String SayAddress()
+    {
+        return "pune";
+    }
 }
